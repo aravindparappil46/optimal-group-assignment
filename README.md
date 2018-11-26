@@ -19,7 +19,7 @@ Unfortunately, student preferences often confict with one another, so that it is
 assignment that makes everyone happy. Instead, the course staff tries to find an assignment that will
 minimize the amount of work they have to do after assigning the groups. They estimate that:
 - They need k minutes to grade each assignment, so total grading time is k times number of teams.
-> Each student who requested a specic group size and was assigned to a different group size will complain
+> Each student who requested a specific group size and was assigned to a different group size will complain
 to the instructor after class, taking 1 minute of the instructor's time.
 - Each student who is not assigned to someone they requested will send a complaint email, which will
 take n minutes for the instructor to read and respond. If a student requested to work with multiple
