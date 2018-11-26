@@ -18,18 +18,18 @@ leave this box empty if you have no preference.
 Unfortunately, student preferences often confict with one another, so that it is not possible to find an
 assignment that makes everyone happy. Instead, the course staff tries to find an assignment that will
 minimize the amount of work they have to do after assigning the groups. They estimate that:
-> They need k minutes to grade each assignment, so total grading time is k times number of teams.
+- They need k minutes to grade each assignment, so total grading time is k times number of teams.
 > Each student who requested a specic group size and was assigned to a different group size will complain
 to the instructor after class, taking 1 minute of the instructor's time.
-> Each student who is not assigned to someone they requested will send a complaint email, which will
+- Each student who is not assigned to someone they requested will send a complaint email, which will
 take n minutes for the instructor to read and respond. If a student requested to work with multiple
 people, then they will send a separate email for each person they were not assigned to.
-> Each student who is assigned to someone they requested not to work with (in question 4 above) will
+- Each student who is assigned to someone they requested not to work with (in question 4 above) will
 request a meeting with the instructor to complain, and each meeting will last m minutes. If a student
 requested not to work with two specific students and is assigned to a group with both of them, then
 they will request 2 meetings.
 
-> The total time spent by the course staff is equal to the sum of these components. Your goal is to write a
+- The total time spent by the course staff is equal to the sum of these components. Your goal is to write a
 program to 
 Find an assignment of students to teams that minimizes the total amount of work the course staff
 needs to do, subject to the constraint that no team may have more than 3 students. 
